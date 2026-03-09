@@ -151,6 +151,43 @@ The EWS cuts worst-case loss by 5.27 percentage points while improving expected 
 | Investing.com | Brent Crude, MCX Gold |
 
 ---
+## Skills Demonstrated
+
+### Excel Modelling
+- Built 12 interconnected sheets with cross-sheet formula referencing throughout
+- Percentile-based normalisation (5th–95th) to handle outliers in VIX and FII flow data
+- Nested IF logic for dynamic signal-based portfolio allocation
+- Cumulative return compounding using iterative row-by-row multiplication
+- NORM.INV with RAND() for Monte Carlo simulation across 100 columns × 12 rows
+- PERCENTILE, COUNTIF, PRODUCT array formulas for summary statistics
+
+### Risk Framework Design
+- Designed a composite scoring system from scratch — indicator selection, weighting rationale, threshold calibration
+- Iteratively adjusted signal thresholds based on actual data distribution — not arbitrary cutoffs
+- Evidence-based decision rules derived from stress period asset behaviour, not theoretical assumptions
+- Balanced the classic risk-return tradeoff — EWS reduces risk without sacrificing returns
+
+### Quantitative Analysis
+- Normalised nine heterogeneous indicators to a common 0–10 scale
+- Weighted composite scoring across three categories with documented rationale
+- Backtesting framework comparing EWS vs static portfolio across 119 months
+- Monte Carlo simulation to quantify forward-looking tail risk
+- Sharpe Ratio calculation and interpretation for risk-adjusted performance comparison
+
+### Financial Markets Knowledge
+- Multi-asset portfolio construction across equity, fixed income, commodity and currency
+- Understanding of how different assets behave during different stress regimes — credit crisis vs pandemic vs rate hike cycle
+- Use of market-based indicators (VIX, PE ratio, FII flows) as leading signals vs lagging macro data
+- RBI monetary policy cycles and their impact on duration-sensitive assets
+
+### Data Collection & Management
+- Sourced 10 years of monthly data across 5 independent data sources
+- Converted international gold prices (USD/troy oz) to domestic format (INR/10gm)
+- Handled quarterly GDP data interpolated to monthly frequency
+- Structured all data for Power BI compatibility — clean headers, unpivoted tables, no merged cells
+
+---
+
 
 ## Limitations
 
